@@ -1,0 +1,29 @@
+{% extends 'front/base.html' %} {% load static %} {% block content %}
+<div class="wrapper">
+    <div class="profile-content section">
+        <div class="container">
+            <div class="row">
+                <div class="profile-picture">
+                    <div class="fileinput fileinput-new" data-provides="fileinput">
+                        <br></br>
+                        <div class="fileinput-new img-no-padding">
+                            <img src="{% static 'front/img/faces/foto-1.jpg' %}" alt="...">
+                        </div>
+                        <div class="name">
+                            <h4 class="title text-center">M Zulfikar A N <br/><small>Mahasiswa</small></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ml-auto mr-auto text-center">
+                    <p> KAMPUS : UNIVERSITAS MUHAMMADIYAH KALIMANTAN TIMUR || NIM : 1911102441079 || PRODI : S1 TEKNIK INFORMATIKA || TEMPAT TANGGAL LAHIR : TENGGARONG, 14 JUNI 2001 || JENIS KELAMIN : LAKI-LAKI || BLOG : ASSALAM BROTHER
+                    </p>
+                    <br />
+                </div>
+            </div>
+            <br />
+        </div>
+    </div>
+</div>
+{% endblock content %}
